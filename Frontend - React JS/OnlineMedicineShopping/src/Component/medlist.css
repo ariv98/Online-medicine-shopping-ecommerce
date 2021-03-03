@@ -1,0 +1,23 @@
+.txtt
+{
+    background-color: lightskyblue;
+    margin-bottom: 100px;
+    border-radius: 30px;
+    /* font-weight: 900; */
+    border: 5px solid black;
+
+}
+.imgg
+{
+    margin-bottom: 100px;
+    border-radius: 30px;
+    margin-left: 30px;
+    /* border: 5px solid black; */
+}
+.ig
+{
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    
+}

@@ -1,0 +1,202 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.backgroun {
+  /* margin: 0%; */
+  /* background-color: yellow; */
+  /* width: 100vh; */
+  background-image: url("../images/background.jfif");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  background-attachment: scroll;
+}
+.border-md {
+  border-width: 5px;
+  border-color: black;
+}
+
+.btn-facebook {
+  background: #0c3896;
+  border: none;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+  background: greenyellow;
+}
+
+.btn-twitter {
+  background: #42aeec;
+  border: none;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+  background: greenyellow;
+}
+
+.btn-google {
+  background: red;
+  border: none;
+}
+
+.btn-google:hover,
+.btn-google:focus {
+  background: greenyellow;
+}
+
+.acc {
+  background: green;
+  border: none;
+}
+
+.acc:hover,
+.acc:focus {
+  background: greenyellow;
+}
+
+.signup {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bottom {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: black;
+}
+#heading {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+}
+
+#medhead {
+  font-size: 3rem;
+  font-weight: 700;
+  color: darkblue;
+}
+#medlogo {
+  width: 120px;
+  height: 100px;
+}
+
+.border-bottom {
+  border-bottom: 5px solid darkorange !important;
+  /* height: 0px; */
+}
+/* input:focus
+{
+  border-color: blue;
+} */
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+/* body {
+  min-height: 100vh;
+} */
+
+.form-control:not(select) {
+  padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+  height: 52px;
+  padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+  /* color: #ccc; */
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: red;
+}
+
+/* 
+#firstName
+{
+  text-align: center;
+  border: 2px solid red;
+} */
+
+/* .fa
+{
+  color: red;
+} */
+
+/* input
+{
+  border-color: red;
+} */
+
+.la {
+  margin-top: 20px;
+  text-align: right;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

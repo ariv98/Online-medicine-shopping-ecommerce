@@ -1,0 +1,266 @@
+body {
+  background-color: #eee;
+}
+
+.header-main {
+  position: relative;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  /* background-color: rgb(214, 78, 44); */
+  background-image: linear-gradient(20deg, lightblue, darkblue);
+  /* position: sticky; */
+  /* top: 0%; */
+}
+
+.logo {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.brand-wrap {
+  text-decoration: none !important;
+}
+
+.icon-sm {
+  width: 48px;
+  height: 48px;
+  line-height: 48px !important;
+  font-size: 20px;
+}
+
+.widget-header {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+.mr-3,
+.mx-3 {
+  margin-right: 1rem !important;
+}
+
+.search-form {
+  border: 1px solid #ffffff !important;
+}
+
+.search-button {
+  color: #007bff;
+  background-color: #ffffff;
+  border-color: #ffffff;
+  /* padding: 50px; */
+  width: 70px;
+}
+
+.navbar-main {
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+.navbar-toggler {
+  padding: 4px;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.37rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 0.5rem 7px 0px;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  /* border: 1px solid rgba(0, 0, 0, 0.15); */
+  /* border-radius: 0.25rem; */
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  padding: 0.45rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.navbar-toggler-icon {
+  background-image: url(https://img.icons8.com/ios/50/000000/menu.png);
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* .vl {
+  border-left: 1px solid #fff;
+  height: 100%;
+  border: 5px solid red;
+} */
+
+.fas {
+  color: #fff;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.login:hover
+{
+  color: black;
+}
+#meddlogo {
+  width: 120px;
+  height: 100px;
+}
+
+.medtitle {
+  /* height: 100px; */
+  font-size: 2.5rem;
+}
+.cartLog:hover {
+  background-color: greenyellow;
+  border-radius: 10px;
+}
+
+.sec {
+  padding: 0;
+}
+
+/* .drop {
+  color: white;
+  border-radius: 30px; */
+/* display: flex;
+  justify-content: center;
+  align-items: center; */
+/* } */
+.dropp {
+  font-size: larger;
+  color: white;
+  padding-top: 4px;
+  padding-right: 20px;
+  border: none;
+  /* margin-right: 20px; */
+}
+.drop:hover {
+  background-color: greenyellow;
+  border-radius: 10px;
+  color: white;
+  /* border-radius: 0%; */
+}
+
+.indrop:hover {
+  background-color: greenyellow;
+}
+.headANDlogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btt {
+  border: none;
+  outline: none;
+  padding: 0%;
+  background: none;
+  margin-top: 8px;
+}
+.blink_me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 4px 20px; */
+  margin-right: 10px;
+  color: yellow;
+  font-weight: 700;
+  /* font-size: large; */
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+/* .btn:hover { */
+/* background-color: greenyellow; */
+/* border-radius: 30px; */
+/* color: red; */
+/* cursor: pointer; */
+/* } */
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink_me:hover {
+  color: red;
+}
+
+.slogan {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#slo {
+  color: white;
+}
+
+.box {
+  box-shadow: 0px 20px 20px 10px grey;
+  border-bottom: 5px solid orange;
+}
+
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+img.vert-move {
+  -webkit-animation: mover 1s infinite alternate;
+  animation: mover 1s infinite alternate;
+}
+@-webkit-keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.sear:hover
+{
+  border: 5px solid darkblue;
+  border-radius: 10px;
+  /* border-color: darkblue ; */
+}
